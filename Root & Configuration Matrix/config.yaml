@@ -1,0 +1,27 @@
+global:
+   output_dir:"reports"
+   default_region:"us-east-1"
+   enable_multi_region:true
+   log_level:"INFO"
+
+severity_levels:
+   critical:"CRITICAL"
+   high:"HIGH"
+   medium:"MEDIUM"
+   low:"LOW"
+
+thresholds:
+   access_key_expiry_days:90
+   unused_volume_days:30
+
+scanners:
+   iam:true
+   s3:true
+   ec2:true
+   security_groups:true
+   cloudtrails:true 
+   cloudwatch:true
+   password_policy:true
+   root_user:true
+   ebs:true
+  
