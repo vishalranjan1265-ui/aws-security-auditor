@@ -27,3 +27,7 @@ Early-stage learning project — actively being expanded with more checks (encry
 ## Tech Used
 
 Python, boto3, AWS IAM, AWS S3, AWS CLI
+
+## Author
+
+Vishal Ranjan 
